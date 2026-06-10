@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sculp — Lingerie</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="sculp-styles.css" />
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+
+<!-- Collection aura bar -->
+<div class="coll-aura" id="collAura"></div>
+
+<!-- Collection overlay -->
+<div id="coll-overlay"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <!-- Left: hamburger (mobile) + links (desktop) -->
+  <div class="nav-left">
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#collections">Coleções</a></li>
+      <li><a href="#story">Nossa História</a></li>
+      <li><a href="#newsletter">Exclusivo</a></li>
+      <li><a href="#footer">Contato</a></li>
+    </ul>
+  </div>
+
+  <!-- Center: logo -->
+  <a href="#" class="nav-logo">Sculp<span>.</span></a>
+
+  <!-- Right: search + cart -->
+  <div class="nav-right">
+    <button aria-label="Buscar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+      </svg>
+    </button>
+    <button aria-label="Carrinho">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <path d="M16 10a4 4 0 01-8 0"/>
+      </svg>
+      <span class="cart-badge" id="cartBadge">0</span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#collections" class="mob-link">Coleções</a>
+  <a href="#story" class="mob-link">Nossa História</a>
+  <a href="#newsletter" class="mob-link">Exclusivo</a>
+  <a href="#footer" class="mob-link">Contato</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Nova Coleção · Primavera 2025</p>
+    <h1 class="hero-title">Lingerie para<br>quem <em>se ama</em></h1>
+    <p class="hero-sub">Cada peça é um sussurro de seda — criada para celebrar a feminilidade em seus muitos silêncios.</p>
+    <div class="hero-cta">
+      <a href="#collections" class="btn-primary"><span>Explorar Coleções</span></a>
+      <a href="#story" class="btn-ghost">Nossa História</a>
+    </div>
+  </div>
+  <div class="hero-image-side">
+    <div class="hero-img-wrap">
+      <svg class="hero-silhouette" viewBox="0 0 200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="100" cy="60" rx="38" ry="52" fill="white"/>
+        <path d="M62 112 C40 130, 28 180, 32 240 L168 240 C172 180, 160 130, 138 112 C130 140 70 140 62 112Z" fill="white"/>
+        <path d="M32 240 L20 340 L80 340 L100 280 L120 340 L180 340 L168 240Z" fill="white"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections">
+  <div class="collections-header">
+    <div>
+      <p class="section-label">Nossas Coleções</p>
+      <h2 class="section-title">Cada peça,<br>uma sensação</h2>
+      <div class="coll-tabs" id="collTabs">
+        <button class="coll-tab active" data-coll="aurora">Aurora</button>
+        <button class="coll-tab" data-coll="lumiere">Lumière</button>
+        <button class="coll-tab" data-coll="soir">Soir</button>
+        <button class="coll-tab" data-coll="brume">Brume</button>
+      </div>
+    </div>
+    <a href="#" class="btn-ghost">Ver todos</a>
+  </div>
+  <div class="products-grid" id="productsGrid"></div>
+</section>
+
+<!-- STORY -->
+<section id="story">
+  <div class="story-visual"></div>
+  <div class="story-text">
+    <p class="section-label">Sobre a Sculp</p>
+    <h2 class="section-title">Feito para o seu <em>silêncio</em> mais íntimo</h2>
+    <p class="story-body">A Sculp nasceu da crença de que a lingerie não é roupa — é uma conversa entre você e quem você escolhe ser. Cada bordado, cada fio de cetim, cada renda foi escolhido a mão para criar uma segunda pele que celebra, sustenta e seduz.</p>
+    <p class="story-body">Produzida em pequenas séries, com tecidos europeus e acabamento artesanal, cada coleção carrega a mesma promessa: fazer você se sentir extraordinária no ordinário.</p>
+    <div class="story-line"></div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="reveal">
+    <p class="section-label" style="text-align:center;">Por que Sculp</p>
+  </div>
+  <div class="features-grid reveal">
+    <div class="feature-item">
+      <div class="feature-icon">✦</div>
+      <div class="feature-label">Tecidos Europeus</div>
+      <div class="feature-desc">Seda, cetim e renda importados da França e Itália, macios como uma promessa.</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">◈</div>
+      <div class="feature-label">Produção Limitada</div>
+      <div class="feature-desc">Séries pequenas garantem exclusividade e atenção em cada detalhe de acabamento.</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">◇</div>
+      <div class="feature-label">Tamanhos P ao GGG</div>
+      <div class="feature-desc">Inclusividade é beleza. Toda silhueta merece sentir o toque do veludo.</div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">✿</div>
+      <div class="feature-label">Entrega Discreta</div>
+      <div class="feature-desc">Embalagem neutra, perfumada com lavanda. Uma pequena cerimônia ao abrir.</div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section id="newsletter">
+  <div class="reveal">
+    <h2 class="newsletter-title">Entre no<br>círculo íntimo</h2>
+    <p class="newsletter-sub">Acesso antecipado a novas coleções, ofertas exclusivas e cuidados com seus tecidos.</p>
+    <form class="newsletter-form" onsubmit="submitNews(event)">
+      <input type="email" placeholder="seu@email.com" required />
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo">Sculp<span style="color:var(--gold)">.</span></a>
+      <p>Lingerie artesanal para celebrar a mulher que você é — todos os dias, em todos os momentos.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Coleções</h4>
+      <ul>
+        <li><a href="#">Aurora</a></li>
+        <li><a href="#">Lumière</a></li>
+        <li><a href="#">Soir</a></li>
+        <li><a href="#">Brume</a></li>
+        <li><a href="#">Nupcial</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Atendimento</h4>
+      <ul>
+        <li><a href="#">Guia de Tamanhos</a></li>
+        <li><a href="#">Cuidados com Tecidos</a></li>
+        <li><a href="#">Trocas &amp; Devoluções</a></li>
+        <li><a href="#">Rastrear Pedido</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Sculp</h4>
+      <ul>
+        <li><a href="#">Nossa História</a></li>
+        <li><a href="#">Sustentabilidade</a></li>
+        <li><a href="#">Imprensa</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Sculp. Todos os direitos reservados.</span>
+    <span>Feito com delicadeza ✦ Brasil</span>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+    <div id="modal-img" class="modal-img"></div>
+    <h2 class="modal-title" id="modal-title"></h2>
+    <p class="modal-line" id="modal-line"></p>
+    <p class="modal-price" id="modal-price"></p>
+    <p class="modal-desc" id="modal-desc"></p>
+    <div class="modal-sizes" id="modal-sizes"></div>
+    <button class="btn-primary modal-cta" id="modal-cta" onclick="addToCart()">
+      <span>Adicionar ao Carrinho</span>
+    </button>
+  </div>
+</div>
+
+<script src="sculp.js"></script>
+</body>
+</html>
