@@ -130,7 +130,7 @@ function openModal(id) {
   imgEl.innerHTML = `<span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:2rem;font-style:italic;color:rgba(255,255,255,0.5)">${p.name}</span>`;
  
   document.getElementById('modal-title').textContent = p.name;
-  document.getElementById('modal-line').textContent  = p.line + ' · Velours';
+  document.getElementById('modal-line').textContent  = p.line + ' · Sculp';
   document.getElementById('modal-price').textContent = p.price;
   document.getElementById('modal-desc').textContent  = p.desc;
  
