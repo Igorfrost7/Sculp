@@ -5,10 +5,10 @@ const collections = {
     aura: 'linear-gradient(90deg, #F2B8C6, #EDD9A3)',
     overlay: 'rgba(242,184,198,0.12)',
     products: [
-      { id:1, name:'Conjunto Rosé',    line:'Aurora', price:'R$ 389', desc:'Cetim italiano blush com bordado floral em fio dourado. Sutiã com bojo macio e calcinha hot-pants de renda.', badge:'Novo', class:'card-aurora' },
-      { id:2, name:'Body Pétalas',     line:'Aurora', price:'R$ 479', desc:'Body inteiro em renda francesa rose, botões de madrepérola e alças ajustáveis em fita de cetim.', badge:null,  class:'card-aurora' },
-      { id:3, name:'Baby-doll Matinê', line:'Aurora', price:'R$ 299', desc:'Fluido e delicado, em chiffon rose e sobreposição de renda, ideal para o amanhecer.', badge:'Exclusivo', class:'card-aurora' },
-      { id:4, name:'Camisola Bruma',   line:'Aurora', price:'R$ 349', desc:'Modal com toque de seda, gola em V com renda e barra com detalhe dourado.', badge:null,  class:'card-aurora' },
+      { id:1, name:'Conjunto Rosé',    line:'Aurora', price:'R$ 389', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (1).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (2).jpeg', desc:'Cetim italiano blush com bordado floral em fio dourado. Sutiã com bojo macio e calcinha hot-pants de renda.', badge:'Novo', class:'card-aurora' },
+      { id:2, name:'Body Pétalas',     line:'Aurora', price:'R$ 479', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (3).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (4).jpeg', desc:'Body inteiro em renda francesa rose, botões de madrepérola e alças ajustáveis em fita de cetim.', badge:null,  class:'card-aurora' },
+      { id:3, name:'Baby-doll Matinê', line:'Aurora', price:'R$ 299', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (5).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (6).jpeg', desc:'Fluido e delicado, em chiffon rose e sobreposição de renda, ideal para o amanhecer.', badge:'Exclusivo', class:'card-aurora' },
+      { id:4, name:'Camisola Bruma',   line:'Aurora', price:'R$ 349', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (7).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (8).jpeg', desc:'Modal com toque de seda, gola em V com renda e barra com detalhe dourado.', badge:null,  class:'card-aurora' },
     ]
   },
   lumiere: {
@@ -16,10 +16,10 @@ const collections = {
     aura: 'linear-gradient(90deg, #D4C4E8, #C8C8CC)',
     overlay: 'rgba(212,196,232,0.12)',
     products: [
-      { id:5, name:'Conjunto Prateado', line:'Lumière', price:'R$ 419', desc:'Microfibra prata com detalhes em renda lilás e fio metálico. Conjunto bojo + calcinha fio-dental.', badge:'Novo', class:'card-lumiere' },
-      { id:6, name:'Sutiã Véu',         line:'Lumière', price:'R$ 259', desc:'Renda floral com copa meia-taça, bojo removível e alça decorativa em corrente prateada.', badge:null,  class:'card-lumiere' },
-      { id:7, name:'Conjunto Íris',     line:'Lumière', price:'R$ 369', desc:'Tom lavanda com acabamento prateado. Calcinha brasileira com renda nas laterais.', badge:null,  class:'card-lumiere' },
-      { id:8, name:'Robe de Cetim',     line:'Lumière', price:'R$ 529', desc:'Robe midi em cetim lavanda com cinto e punhos em renda prateada. Fechamento com laço.', badge:'Limitado', class:'card-lumiere' },
+      { id:5, name:'Conjunto Prateado', line:'Lumière', price:'R$ 419', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (9).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (10).jpeg', desc:'Microfibra prata com detalhes em renda lilás e fio metálico. Conjunto bojo + calcinha fio-dental.', badge:'Novo', class:'card-lumiere' },
+      { id:6, name:'Sutiã Véu',         line:'Lumière', price:'R$ 259', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (11).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (12).jpeg', desc:'Renda floral com copa meia-taça, bojo removível e alça decorativa em corrente prateada.', badge:null,  class:'card-lumiere' },
+      { id:7, name:'Conjunto Íris',     line:'Lumière', price:'R$ 369', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (13).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (14).jpeg', desc:'Tom lavanda com acabamento prateado. Calcinha brasileira com renda nas laterais.', badge:null,  class:'card-lumiere' },
+      { id:8, name:'Robe de Cetim',     line:'Lumière', price:'R$ 529', img1:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (15).jpeg', img2:'Imagens/Fotos/WhatsApp Image 2026-06-01 at 23.34.16 (16).jpeg', desc:'Robe midi em cetim lavanda com cinto e punhos em renda prateada. Fechamento com laço.', badge:'Limitado', class:'card-lumiere' },
     ]
   },
   soir: {
@@ -27,10 +27,10 @@ const collections = {
     aura: 'linear-gradient(90deg, #D4AF6A, #2A1F23)',
     overlay: 'rgba(212,175,106,0.1)',
     products: [
-      { id:9,  name:'Conjunto Noturno', line:'Soir', price:'R$ 549', desc:'Seda preta com sobreposição de renda dourada. Para noites que merecem ser lembradas.', badge:'Bestseller', class:'card-soir' },
-      { id:10, name:'Corset Minuit',    line:'Soir', price:'R$ 689', desc:'Corset em cetim preto com estrutura de barbatanas, fechamento por laços dourados nas costas.', badge:'Novo', class:'card-soir' },
-      { id:11, name:'Body Étoile',      line:'Soir', price:'R$ 459', desc:'Body de renda preta com detalhe dourado no decote e botões de perola nas costas.', badge:null,  class:'card-soir' },
-      { id:12, name:'Slip Dress Nuit',  line:'Soir', price:'R$ 399', desc:'Slip dress em cetim cobre-escuro com gota dourada no centro. Elegante para dentro e fora do quarto.', badge:null,  class:'card-soir' },
+      { id:9,  name:'Conjunto Noturno', line:'Soir', price:'R$ 549', img1:'https://via.placeholder.com/600x800?text=Soir+1', img2:'https://via.placeholder.com/600x800?text=Soir+1+Alt', desc:'Seda preta com sobreposição de renda dourada. Para noites que merecem ser lembradas.', badge:'Bestseller', class:'card-soir' },
+      { id:10, name:'Corset Minuit',    line:'Soir', price:'R$ 689', img1:'https://via.placeholder.com/600x800?text=Soir+2', img2:'https://via.placeholder.com/600x800?text=Soir+2+Alt', desc:'Corset em cetim preto com estrutura de barbatanas, fechamento por laços dourados nas costas.', badge:'Novo', class:'card-soir' },
+      { id:11, name:'Body Étoile',      line:'Soir', price:'R$ 459', img1:'https://via.placeholder.com/600x800?text=Soir+3', img2:'https://via.placeholder.com/600x800?text=Soir+3+Alt', desc:'Body de renda preta com detalhe dourado no decote e botões de perola nas costas.', badge:null,  class:'card-soir' },
+      { id:12, name:'Slip Dress Nuit',  line:'Soir', price:'R$ 399', img1:'https://via.placeholder.com/600x800?text=Soir+4', img2:'https://via.placeholder.com/600x800?text=Soir+4+Alt', desc:'Slip dress em cetim cobre-escuro com gota dourada no centro. Elegante para dentro e fora do quarto.', badge:null,  class:'card-soir' },
     ]
   },
   brume: {
@@ -38,10 +38,10 @@ const collections = {
     aura: 'linear-gradient(90deg, #C8D8E4, #A8B8C4)',
     overlay: 'rgba(168,184,196,0.1)',
     products: [
-      { id:13, name:'Conjunto Névoa',   line:'Brume', price:'R$ 339', desc:'Azul névoa em microfibra ultra-suave. Ideal para o dia a dia com máximo conforto e elegância discreta.', badge:'Novo', class:'card-brume' },
-      { id:14, name:'Sutiã Sereno',     line:'Brume', price:'R$ 219', desc:'Sem bojo, com alças ajustáveis e renda cenurada. Suporte suave para o cotidiano.', badge:null,  class:'card-brume' },
-      { id:15, name:'Camisola Inverno', line:'Brume', price:'R$ 379', desc:'Modal cinza-azulado com manga ¾ em renda, perfeita para noites mais frescas.', badge:null,  class:'card-brume' },
-      { id:16, name:'Conjunto Prata',   line:'Brume', price:'R$ 359', desc:'Tom prata metálico em tecido técnico com acabamento em renda branca. Onde conforto encontra sofisticação.', badge:'Limitado', class:'card-brume' },
+      { id:13, name:'Conjunto Névoa',   line:'Brume', price:'R$ 339', img1:'https://via.placeholder.com/600x800?text=Brume+1', img2:'https://via.placeholder.com/600x800?text=Brume+1+Alt', desc:'Azul névoa em microfibra ultra-suave. Ideal para o dia a dia com máximo conforto e elegância discreta.', badge:'Novo', class:'card-brume' },
+      { id:14, name:'Sutiã Sereno',     line:'Brume', price:'R$ 219', img1:'https://via.placeholder.com/600x800?text=Brume+2', img2:'https://via.placeholder.com/600x800?text=Brume+2+Alt', desc:'Sem bojo, com alças ajustáveis e renda cenurada. Suporte suave para o cotidiano.', badge:null,  class:'card-brume' },
+      { id:15, name:'Camisola Inverno', line:'Brume', price:'R$ 379', img1:'https://via.placeholder.com/600x800?text=Brume+3', img2:'https://via.placeholder.com/600x800?text=Brume+3+Alt', desc:'Modal cinza-azulado com manga ¾ em renda, perfeita para noites mais frescas.', badge:null,  class:'card-brume' },
+      { id:16, name:'Conjunto Prata',   line:'Brume', price:'R$ 359', img1:'https://via.placeholder.com/600x800?text=Brume+4', img2:'https://via.placeholder.com/600x800?text=Brume+4+Alt', desc:'Tom prata metálico em tecido técnico com acabamento em renda branca. Onde conforto encontra sofisticação.', badge:'Limitado', class:'card-brume' },
     ]
   }
 };
@@ -66,13 +66,15 @@ function renderProducts(collKey, animate = false) {
         <div class="product-img">
           ${p.badge ? `<span class="product-badge">${p.badge}</span>` : ''}
           <div class="product-img-label">${p.name.split(' ')[0]}</div>
+          <img src="${p.img1}" alt="${p.name}" class="product-image product-image-1" />
+          <img src="${p.img2}" alt="${p.name} - Detalhe" class="product-image product-image-2" />
         </div>
-        <button class="product-quick" onclick="event.stopPropagation();openModal(${p.id})">Ver Detalhes</button>
         <div class="product-info">
           <div class="product-name">${p.name}</div>
           <div class="product-line">${coll.label}</div>
           <div class="product-price">${p.price}</div>
         </div>
+        <button class="product-quick" onclick="event.stopPropagation();openModal(${p.id})">Ver Detalhes</button>
       </article>
     `).join('');
  
